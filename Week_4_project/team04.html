@@ -5,8 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>team04</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="board">
+        <div id="A1" class="block"></div>
+        <div id="A2" class="block"></div>
+        <div id="A3" class="block"></div>
+        <div id="B1" class="block"></div>
+        <div id="B2" class="block"></div>
+        <div id="B3" class="block"></div>
+        <div id="C1" class="block"></div>
+        <div id="C2" class="block"></div>
+        <div id="C3" class="block"></div>
+      </div>
+    <script>
+        document.getElementsByClassName("board").ontouchend = myFunction;
+
+        function myFunction(){
+            console.log("Hello");
+        }
+
+    </script>
 </body>
 </html>
